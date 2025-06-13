@@ -1,6 +1,6 @@
 {
-  "name": "ben-MD",
-  "description": "Alpha is a multidevice WhatsApp bot built to make your WhatsApp enjoyable.",
+  "name": "BEN-MD",
+  "description": "Ben is a multidevice WhatsApp bot built to make your WhatsApp enjoyable.",
   "keywords": [
     "bot",
     "node",
@@ -8,7 +8,7 @@
     "whatsapp"
   ],
   "logo": "https://telegra.ph/file/b148f6ed21fa02ac5325b.jpg",
-  "repository": "https://github.com/Keithkeizzah/ALPHA-MD",
+  "repository": "https://github.com/benngugi/ALPHA-MD",
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -19,7 +19,7 @@
     },
       "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     
@@ -30,7 +30,7 @@
     },
     "BOT_NAME": {
       "description": "You must give a name for your bot",
-      "value": "ben bot",
+      "value": "BEN bot",
       "required": false
     },
     "TIMEZONE": {
@@ -50,7 +50,7 @@
     },
     "OWNER_NAME": {
       "description": "Insert your name here",
-      "value": "ben",
+      "value": "BEN",
       "required": false
     },
     "URL": {
