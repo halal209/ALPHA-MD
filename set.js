@@ -38,7 +38,7 @@ const config = {
         ? new Sequelize({
             dialect: 'sqlite',
             storage: DATABASE_URL,
-            logging: true,
+            logging: false,
         })
         : new Sequelize(DATABASE_URL, {
             dialect: 'postgres',
@@ -51,7 +51,7 @@ const config = {
                     rejectUnauthorized: false 
                 },
             },
-            logging: false,
+            logging: true,
         })
 };
 
