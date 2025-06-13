@@ -51,7 +51,7 @@ const config = {
                     rejectUnauthorized: false 
                 },
             },
-            logging: true,
+            logging: false,
         })
 };
 
